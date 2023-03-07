@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6021a72-15bf-4f47-b970-fb696a484cf9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../404.html" beforeDir="false" afterPath="$PROJECT_DIR$/../404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_data/fellows.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../_data/fellows.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_data/projects.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../_data/projects.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_includes/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_includes/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_includes/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_includes/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_includes/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_includes/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_includes/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_layouts/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_sass/all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_sass/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_sass/page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_sass/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/profile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/img/aaron.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/img/aaron.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/img/amanda.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/img/amanda.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/img/education/fellowship.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/img/education/fellowship.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/img/education/uob.png" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/img/education/uob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/img/experience/fellowship.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/img/experience/fellowship.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/img/experience/mlh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/img/experience/mlh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/img/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/img/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/img/mlh-prep.png" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/img/mlh-prep.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/img/mlh.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/img/mlh.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/img/social-link.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/img/social-link.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/img/swift.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/img/swift.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projects/project.md" beforeDir="false" afterPath="$PROJECT_DIR$/../projects/project.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pull_request_template.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pull_request_template.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Mg42osjgKu85wg7dUJc1cj6YSJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/pheogrammer/Projects/prep-portfolio-23.MAR.PREP.2",
+    "ruby.rails.projectView.checked": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6021a72-15bf-4f47-b970-fb696a484cf9" name="Changes" comment="" />
+      <created>1678175687086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678175687086</updated>
+      <workItem from="1678175688562" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
