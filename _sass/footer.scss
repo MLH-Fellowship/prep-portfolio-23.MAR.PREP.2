@@ -1,17 +1,27 @@
-
-footer
-{
+footer {
     background-color: #0c203c !important;
     color: #f5f5f9;
-    margin-top: auto;
+
 }
 
-footer .socials img{
+footer .socials img {
     height: 20px;
 }
 
-footer .socials img.enlarged{
-height: 28px;
-margin-left: -4px;
-margin-right: -4px;
+footer .socials img.enlarged {
+    height: 28px;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+footer .lower-than-for-sticking {
+    margin-bottom: -60px;
+    padding-bottom: -60px;
+    padding-bottom: -60px;
+}
+
+@media only screen and (max-width: 768px) {
+    footer .medium-on-small-screen {
+        padding-left: 14%;
+    }
 }
