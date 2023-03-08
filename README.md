@@ -41,8 +41,42 @@ This is a Jekyll website template designed for Prep Fellows.
    ```
    bundle exec jekyll serve
    ```
+#### MacOS
 
+1. Open the terminal and run following commands one after another: 
+```
+brew install ruby
+```
+```
+ruby --version 
+```
 
+make sure you have ruby 3.2.1 installed, then
+
+```
+gem install bundler
+```
+check bundler version 
+```
+bundler --version   
+```
+make sure you have atleast Bundler version 2.4.7
+
+(Optional??) 
+
+```
+bundle update --bundler
+
+bundle install --path vendor/bundle
+
+bundle update --verbose 
+```
+
+(as per GitHub comment here - https://github.com/rubygems/rubygems/issues/5234#issuecomment-1242716697)
+
+```
+bundle exec jekyll serve --trace
+```
 ## Add your portfolio
 
 Head to `_data` and fill out either `projects.yml`, `experience.yml` and `education.yml`.
