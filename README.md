@@ -69,3 +69,26 @@ If you want to test it locally or add some new features, run the below commands.
 bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
+
+## Include your details!
+Go to `fellows` folder which has .md files -> create your own `your_name.md` file and include your details as per the template below:
+
+> make sure `your_name` matches the `page` field in `fellows.yml` file in `_data` folder
+
+```
+title: (your-name)'s Profile
+full_name: #insert your full name
+layout: fellow #do not override this
+img: #Insert link of your github profile image link
+location: #state, country Eg. California, USA
+email: # insert your email which you used at MLH
+linkedin: https://www.linkedin.com/in/your_linkedin_username
+twitter: https://twitter.com/your_twitter_username
+github: https://github.com/your_github_username
+description: #Please include your short bio!
+university: # insert your university name if you're a current student or if you're graduated, then insert your recent university 
+interests: #Please include your interests out of tech.
+favorite_programming_language: # Please include your favorite programming language
+```
+
+If you have any ambiguity, refer to the `fellows` folder and take a look at the already existing .md files and complete your .md file.
