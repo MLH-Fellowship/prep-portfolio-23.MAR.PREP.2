@@ -44,11 +44,47 @@
         font-weight: bold;
         font-size: 18px;
         padding: 10px;
-        background-color: #6c7a91;
+        background-color: #133667;
 
         &:hover {
-          background-color: #fff;
-          color: #133667;
+          background-color: #4d535d;
+          color: #ff9502;
+        }
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      position: fixed;
+      top: 0;
+      height: 60px;
+      padding-top: 15px;
+
+      .nav-logo {
+        height: 30px;
+        margin: 0;
+      }
+
+      .nav-links {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 60px);
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #133667;
+
+        &.active {
+          display: flex;
+        }
+
+        li {
+          margin: 10px 0;
+
+          a {
+            font-size: 24px;
+            padding: 5px;
+          }
         }
       }
     }
