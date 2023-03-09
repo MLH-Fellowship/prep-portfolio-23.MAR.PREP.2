@@ -4,7 +4,7 @@ layout: page
 ---
 
 <form>
- <input type="button" value="Go back!" onclick="history.go(-1)">
+ <input type="button" value="<< Previous" onclick="history.go(-1)">
 </form>
 
 ## Inspiration
