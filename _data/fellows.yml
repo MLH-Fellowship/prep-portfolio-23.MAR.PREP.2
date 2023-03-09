@@ -1,15 +1,24 @@
 - name: Will
   img: logo.jpg
   location: London, UK
+  page: will
 
 - name: Amanda
   img: amanda.jpg
   location: New York City, USA
+  page: amanda
 
 - name: Aaron
   img: aaron.jpg
   location: London, UK
+  page: aaron
 
 - name: Swift
   img: swift.jpg
   location: New York City, USA
+  page: swift
+
+- name: Tharun Kumar Reddy Polu
+  img: tharun.png
+  location: Maryland, USA
+  page: tharun
