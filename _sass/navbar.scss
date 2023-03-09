@@ -1,89 +1,102 @@
 .nav-bar {
   position: fixed;
-  top: -100px; /* Hide the navbar initially */
+  top: 0;
+  left: 0;
   width: 100%;
   background-color: #133667;
-  font-family: "Poppins", serif;
-  font-weight: 700 !important;
-  padding-top: 10px;
-  transition: top 0.3s ease-in-out; /* Add smooth transition */
-  align-items: center; /* Add this to center the items vertically */
-
-  &.active {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    background-color: #133667;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Show the navbar when scrolled down */
-  }
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
 
   .nav-logo {
     height: 40px;
-    margin: 0 20px;
+    margin-right: 20px;
+    display: inline-block;
   }
 
   .nav-logo img {
-    width: 100%;
-    max-width: 150px;
+    max-height: 100%;
+    width: auto;
   }
 
-  .nav-links {
-    list-style: none;
+  .nav-content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
-    margin: 0;
+    height: 100%;
 
-    li {
-      margin: 0 10px;
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
 
-      a {
-        color: #fff;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 18px;
-        padding: 10px;
-        background-color: #133667;
+      li {
+        margin-left: 20px;
 
-        &:hover {
-          background-color: #4d535d;
-          color: #ff9502;
+        &:first-child {
+          margin-left: 0;
+        }
+
+        a {
+          display: block;
+          padding: 10px;
+          text-decoration: none;
+          color: #fff;
+          font-size: 18px;
+          font-weight: bold;
+          transition: all 0.3s ease-in-out;
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow to the items */
+
+          &:hover {
+            color: #ff9502;
+          }
         }
       }
     }
-    @media only screen and (max-width: 600px) {
-      position: fixed;
-      top: 0;
-      height: 60px;
-      padding-top: 15px;
+  }
 
-      .nav-logo {
-        height: 30px;
-        margin: 0;
+  @media only screen and (max-width: 600px) {
+    .nav-logo {
+      height: 30px;
+      margin-right: 0;
+    }
+
+    .nav-content {
+      position: fixed;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      height: calc(100vh - 60px);
+      flex-direction: column;
+      justify-content: flex-start;
+      background-color: #133667;
+      overflow-y: auto;
+      transform: translateY(-100%);
+      transition: all 0.3s ease-in-out;
+
+      &.active {
+        transform: translateY(0);
       }
 
       .nav-links {
-        position: fixed;
-        top: 60px;
-        left: 0;
         width: 100%;
-        height: calc(100vh - 60px);
-        display: none;
         flex-direction: column;
-        justify-content: space-around;
-        background-color: #133667;
-
-        &.active {
-          display: flex;
-        }
+        justify-content: flex-start;
 
         li {
           margin: 10px 0;
+          padding: 0;
 
           a {
-            font-size: 24px;
             padding: 5px;
+            font-size: 24px;
           }
         }
       }
