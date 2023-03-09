@@ -3,9 +3,9 @@ title: My Project
 layout: page
 ---
 
-<!-- <form>
+<form>
  <input type="button" value="Go back!" onclick="history.go(-1)">
-</form> -->
+</form>
 
 ## Inspiration
 
