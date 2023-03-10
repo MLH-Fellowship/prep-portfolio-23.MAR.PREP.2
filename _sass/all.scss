@@ -44,10 +44,10 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 20px 30px;
+    margin: 16px 24px;
     background-color: white;
     border-radius: .375rem;
-    padding: 1.5em;
+    padding: 2em;
     font-size: 1.2em;
 }
 
@@ -56,6 +56,11 @@ a {
 }
 
 .info {
+    img {
+      max-width: 400px;
+      border-radius: 10px;
+      padding-bottom: 4px;
+    }
     p {
         margin-top: 5px;
         margin: 0px;
@@ -87,4 +92,30 @@ a {
     img {
         width: 100%;
     }
+}
+
+// for adding button
+.containerbtn {
+  border: 0;
+  justify-content: center;  
+  align-items: center;  
+  display: flex; 
+}
+
+input {
+  margin: 10px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  border:none;
+  background-color: #1853A0;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: white;
+}
+
+input:hover {
+  background-color: rgba(233, 50, 39, 0.85); // the color is based on MLH guidelines. I only decrease the opacity
+  color: white;
+  font-weight: 600;
 }
