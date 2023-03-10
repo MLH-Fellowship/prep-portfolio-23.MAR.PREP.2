@@ -1,24 +1,74 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
-  page: will
-
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
-  page: amanda
-
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
-  page: aaron
-
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
-  page: swift
-
 - name: Tharun Kumar Reddy Polu
-  img: tharun.png
+  img: https://media.licdn.com/dms/image/D5603AQE2iwHOoLlMdQ/profile-displayphoto-shrink_400_400/0/1669496356264?e=1683763200&v=beta&t=_kqxpXh8n1K9Tw-qJE2Tv-hHVck5z29j0a3oYL9PbNA
   location: Maryland, USA
   page: tharun
+
+- name: Alfeo Raymond
+  img: 
+  location: 
+  page: alfeo
+
+- name: David Wagih
+  img: 
+  location: 
+  page: david
+
+- name: Zhuoli Xie
+  img: 
+  location: 
+  page: zhuoli
+
+- name: Ziwei Wang
+  img: 
+  location: 
+  page: ziwei
+
+- name: Mostafa Hanafi
+  img: 
+  location: 
+  page: mostafa
+
+- name: Reginald Amedee
+  img: 
+  location: 
+  page: reginald
+
+- name: Ekam Ghai
+  img: 
+  location: 
+  page: ekam
+
+- name: Beatrix Cendana
+  img: 
+  location: 
+  page: beatrix
+
+- name: Isa Lyubimova
+  img: 
+  location: 
+  page: isa
+
+- name: Victoria Johnson
+  img: 
+  location: 
+  page: victoria
+
+- name: Tapaswini Kodavanti
+  img: 
+  location: 
+  page: tapaswini
+
+- name: Barok Getachew
+  img: 
+  location: 
+  page: barok
+
+- name: Krit Ravichander
+  img: 
+  location: 
+  page: krit
+
+- name: Qiwen Li
+  img: 
+  location: 
+  page: qiwen
