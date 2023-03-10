@@ -11,6 +11,72 @@ This is a Jekyll website template designed for Prep Fellows.
     2. Make sure it has the /
 3. Use something like Netlify or GitHub Pages to deploy (note, this only works on username.github.io, not username.github.io/repo-name)
 
+## Project Setup and Installations
+### Ruby and bundler installation.
+- Follow the steps below to set up Ruby on your local machine depending on the Operating System you are using. Or you can skip if you have  Ruby and Bundler already installed in your machine.
+
+#### Linux
+
+   1. Open the terminal and run following commands one after another: 
+   ``` 
+   sudo apt-get update 
+   ```
+   2. Install Ruby by running 
+   ```
+   sudo apt-get install ruby ruby-dev
+   ```
+
+   3. Set up the bundler by using this command
+   ```
+    sudo gem install bundler
+   ```
+
+   4. Install Dependencies by running 
+   ```
+   bundle install --path vendor/bundle
+   ```
+
+   5. Then start the server by running 
+   ```
+   bundle exec jekyll serve
+   ```
+#### MacOS
+
+1. Open the terminal and run following commands one after another: 
+```
+brew install ruby
+```
+```
+ruby --version 
+```
+
+make sure you have ruby 3.2.1 installed, then
+
+```
+gem install bundler
+```
+check bundler version 
+```
+bundler --version   
+```
+make sure you have atleast Bundler version 2.4.7
+
+(Optional??) 
+
+```
+bundle update --bundler
+
+bundle install --path vendor/bundle
+
+bundle update --verbose 
+```
+
+(as per GitHub comment here - https://github.com/rubygems/rubygems/issues/5234#issuecomment-1242716697)
+
+```
+bundle exec jekyll serve --trace
+```
+
 ## Add your portfolio
 
 Head to `_data` and fill out either `projects.yml`, `experience.yml` and `education.yml`.

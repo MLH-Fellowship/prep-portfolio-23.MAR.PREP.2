@@ -1,0 +1,91 @@
+<footer class="pt-4 my-md-5 pt-md-5 border-top ">
+    <div class="row lower-than-for-sticking">
+      <div class="col text-center">
+        <img class="mb-2" src="./assets/img/mlh-prep.png" alt="mlh prep" height="50">
+        <small class="d-block mb-3 text-muted">&copy; <script>document.write(new Date().getFullYear());</script></small>
+       
+      </div>
+      <div class="col text-center">
+        <div class="row">
+          <div class="col">
+            <h5>SITE MAP</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Home</a></li>
+              <li><a class="text-muted" href="#">About Us</a></li>
+              <li><a class="text-muted" href="#">Projects</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Blog</a></li>
+              <li><a class="text-muted" href="#">Socials</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col text-center">
+        
+      <img class="mb-2 pod-logo" src="./assets/img/preplogo.svg" height="200" alt="pod logo" >
+      </div>
+      <div class="col text-center medium-on-small-screen">
+        <div class="row">
+          <div class="col">
+            <h5>Projects</h5>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="list-unstyled text-small">
+              {% for item in site.data.projects %}
+              {% if item.page-name %}
+              <a href="/projects/{{ item.page-name }}">
+              {% else %}
+              <a>
+              {% endif %}
+               
+              <li class="text-muted">{{ item.title }}</li>
+              </a>
+              {% endfor %}
+          </ul>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="col text-center">
+        Follow us on:  <br>
+        <p class="socials">
+            <a href="/index.html">
+                <img class="mb-2 enlarged" src="./assets/img/socials/github.svg" alt="mlh prep" >
+            </a>
+            <a href="">
+                <img class="mb-2" src="./assets/img/socials/linkedin.svg" alt="mlh prep">
+
+            </a>
+            <a href="">
+                <img class="mb-2" src="./assets/img/socials/twitter.svg" alt="mlh prep" >
+
+            </a> <br>
+            <a href="">
+                <img class="mb-2 enlarged" src="./assets/img/socials/facebook.svg" alt="mlh prep" >
+
+            </a>
+            <a href="">
+                <img class="mb-2" src="./assets/img/socials/instagram.svg" alt="mlh prep" >
+
+            </a>
+            <a href="">
+                <img class="mb-2" src="./assets/img/socials/discord.svg" alt="mlh prep" >
+
+            </a>
+        </p>
+      </div>
+    </div>
+  </footer>
