@@ -71,9 +71,7 @@ bundle exec jekyll serve
 ```
 
 ## Include your details!
-Go to `fellows` folder which has .md files -> create your own `your_name.md` file and include your details as per the template below:
-
-> make sure `your_name` matches the `page` field in `fellows.yml` file in `_data` folder
+Go to `fellows` folder -> navigate to `your_name.md` file and include your details as per the template below:
 
 ```
 title: (your-name)'s Profile
@@ -90,5 +88,7 @@ university: # insert your university name if you're a current student or if you'
 interests: #Please include your interests out of tech.
 favorite_programming_language: # Please include your favorite programming language
 ```
+
+> make sure `your_name` matches the `page` field in `fellows.yml` file in `_data` folder
 
 If you have any ambiguity, refer to the `fellows` folder and take a look at the already existing .md files and complete your .md file.
