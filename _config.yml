@@ -1,7 +1,7 @@
 title: "POD 23.MAR.PREP.2 - Javascript Jaguars"
 email: fellowship@mlh.io
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my portfolio website!
+  This is our portfolio website!
 baseurl: "/" 
 url: "/" 
 twitter_username: mlhacks
