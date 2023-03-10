@@ -1,0 +1,48 @@
+<script type="text/javascript">
+  const navBar = document.querySelector(".nav-bar");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 10) {
+      navBar.classList.add("active");
+    } else {
+      navBar.classList.remove("active");
+    }
+  });
+
+  document.querySelectorAll(".scroll-link").forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const targetId = event.currentTarget.getAttribute("href").substring(1);
+      const targetElement = document.getElementById(targetId);
+      scrollToElement(targetElement);
+    });
+  });
+
+  function scrollToElement(targetElement) {
+    const targetPosition =
+      targetElement.getBoundingClientRect().top + window.pageYOffset;
+    const startPosition = window.pageYOffset;
+    const distance = targetPosition - startPosition;
+    const duration = 1000; // adjust this value to control the animation speed
+    let start = null;
+
+    function step(timestamp) {
+      if (!start) start = timestamp;
+      const progress = timestamp - start;
+      window.scrollTo(
+        0,
+        easeInOutCubic(progress, startPosition, distance, duration)
+      );
+      if (progress < duration) window.requestAnimationFrame(step);
+    }
+
+    function easeInOutCubic(t, b, c, d) {
+      t /= d / 2;
+      if (t < 1) return (c / 2) * t * t * t + b;
+      t -= 2;
+      return (c / 2) * (t * t * t + 2) + b;
+    }
+
+    window.requestAnimationFrame(step);
+  }
+</script>
