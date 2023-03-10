@@ -78,19 +78,33 @@ a {
     }
 }
 
-.blog-title {
+.preview-title {
   font-size: 500;
   font-weight: bold;
 }
 
-.blog-author {
+.preview-author {
   font-size: medium;
   font-weight: 400;
 }
 
-.blog-date {
+.preview-date {
   font-size: small;
   color: #404040;
+}
+
+.blog-subheading {
+  margin-bottom: 50px;
+
+  .blog-date {
+    font-size: small;
+    color: #404040;
+    font-style: italic;
+  }
+
+  .blog-author {
+    font-size: large;
+  }
 }
 
 .blog-icon {
@@ -101,12 +115,12 @@ a {
   float: left;
 }
 
-.blog-text {
+.preview-text {
   overflow: hidden;
 }
 
 .blog-header {
-  margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 .icon {
