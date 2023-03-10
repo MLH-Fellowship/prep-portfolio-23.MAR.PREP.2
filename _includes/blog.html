@@ -1,0 +1,22 @@
+<h2>Blog</h2>
+<div class="card-container">
+    {% for item in site.data.blog %}
+    {% if item.page-name %}
+    <a href="/blog/{{ item.page-name }}">
+    {% else %}
+    <a>
+    {% endif %}
+      <div class="card">
+        <div class="info">
+          <img class="blog-icon" src="assets/img/{{ item.img }}">
+          <div class="blog-text">
+            <p class="blog-title">{{ item.title }}</p>
+            <p class="blog-author">{{ item.author }}</p>
+            <p class="blog-date">Published on {{ item.date }}</p>
+          </div>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  
