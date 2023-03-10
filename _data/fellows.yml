@@ -1,71 +1,71 @@
-- name: Tharun Kumar Reddy Polu
-  img: https://media.licdn.com/dms/image/D5603AQE2iwHOoLlMdQ/profile-displayphoto-shrink_400_400/0/1669496356264?e=1683763200&v=beta&t=_kqxpXh8n1K9Tw-qJE2Tv-hHVck5z29j0a3oYL9PbNA
-  location: Maryland, USA
-  page: tharun
-
 - name: Alfeo Raymond
-  img: 
-  location: 
+  img: https://media.licdn.com/dms/image/C4E03AQGhpFb-rYyWBQ/profile-displayphoto-shrink_400_400/0/1647328748084?e=1683763200&v=beta&t=YZ15pT44Z3RNw3gVwas8NnyvstXYND5WFn5JIXnbWkI
+  location: Dar es Salaam, Tanzania
   page: alfeo
 
 - name: David Wagih
-  img: 
-  location: 
+  img: https://media.licdn.com/dms/image/D4D03AQGNQhHQWx6TqA/profile-displayphoto-shrink_400_400/0/1677011272447?e=1683763200&v=beta&t=MSaGW6KplH-O5VbLqFAX0YyZtyYQnoTDX3HJg4ip10U
+  location: Cairo, Egypt
   page: david
 
+- name: Tharun Kumar Reddy Polu
+  img: https://avatars.githubusercontent.com/u/62342666?v=4
+  location: Maryland, USA
+  page: tharun
+
 - name: Zhuoli Xie
-  img: 
-  location: 
+  img: https://avatars.githubusercontent.com/u/65101998?v=4
+  location: Austin, TX, USA
   page: zhuoli
 
 - name: Ziwei Wang
-  img: 
-  location: 
+  img: https://avatars.githubusercontent.com/u/29494959?v=4
+  location: Seattle, WA, USA
   page: ziwei
 
 - name: Mostafa Hanafi
-  img: 
-  location: 
+  img: https://media.licdn.com/dms/image/C4E03AQGUHPMYlyMDuQ/profile-displayphoto-shrink_400_400/0/1656348512736?e=1683763200&v=beta&t=Rw2gvAM5dIH5MrSwPMq_T7JX4O1zq225uWHjIsS5ZqI
+  location: London, UK
   page: mostafa
 
 - name: Reginald Amedee
-  img: 
-  location: 
+  img: https://avatars.githubusercontent.com/u/78266709?v=4
+  location: New York, USA
   page: reginald
 
 - name: Ekam Ghai
-  img: 
-  location: 
+  img: https://avatars.githubusercontent.com/u/94583299?v=4
+  location: New Jersey, USA
   page: ekam
 
 - name: Beatrix Cendana
-  img: 
-  location: 
+  img: https://avatars.githubusercontent.com/u/68295481?v=4
+  location: Vancouver, BC, Canada
   page: beatrix
 
 - name: Isa Lyubimova
-  img: 
-  location: 
+  img: https://media.licdn.com/dms/image/C4E03AQEkoLhOVZ0pbQ/profile-displayphoto-shrink_400_400/0/1635728207057?e=1683763200&v=beta&t=2icUoixfT60NvVKwWYe7cThqZFpR5lnKmpuYe6CCNG4
+  location: Atlanta, GA, USA
   page: isa
 
 - name: Victoria Johnson
-  img: 
-  location: 
+  img: https://media.licdn.com/dms/image/C4D03AQETYyqIIvNOIw/profile-displayphoto-shrink_400_400/0/1554393966031?e=1683763200&v=beta&t=ZuYWFUdauFDZcCuFYh6PP9IYoc1zeTRm2N6JfgRUJxM
+  location: Savannah, GA, USA
   page: victoria
 
 - name: Tapaswini Kodavanti
-  img: 
-  location: 
+  img: https://media.licdn.com/dms/image/C5603AQEqPqcyzvPYvQ/profile-displayphoto-shrink_400_400/0/1630077490985?e=1683763200&v=beta&t=rdu6u9JJ1tdZ2zVxisR3qc1lpmnpYzfWRisD8hw2Rf4
+  location: Austin, TX, USA
   page: tapaswini
 
 - name: Barok Getachew
-  img: 
-  location: 
+  img: https://media.licdn.com/dms/image/D4E03AQFIp5mYdnIbDA/profile-displayphoto-shrink_400_400/0/1672646022075?e=1683763200&v=beta&t=90TpSHx2iq3iCExdSE0386WYrOpro2o8glwxblkkTCs
+  location: Addis Ababa, Ethiopia
   page: barok
 
 - name: Krit Ravichander
-  img: 
-  location: 
+  img: https://media.licdn.com/dms/image/D5603AQG317-l3iKc5A/profile-displayphoto-shrink_400_400/0/1665965601441?e=1683763200&v=beta&t=gJyHPtVuzWRqNAFS9JbveOVHwmRrco0d0XzwYnITy0c
+  location: Pittsburgh, PA, USA
   page: krit
 
 - name: Qiwen Li
