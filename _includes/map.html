@@ -23,7 +23,7 @@
 
             <script>
                 function initMap() {
-                    var locations = [
+                    const locations = [
                         {lat: 40.748817, lng: -73.985428, title: 'Ekam Ghai'},
                         {lat: 34.052235, lng: -118.243683, title: 'Los Angeles'},
                         {lat: 41.878113, lng: -87.629799, title: 'Chicago'},
@@ -31,13 +31,13 @@
                         {lat: 29.952584, lng: -75.165222, title: 'Philadelphia'}
                     ];
 
-                    var map = new google.maps.Map(document.getElementById('map'), {
+                    const map = new google.maps.Map(document.getElementById('map'), {
                         zoom: 4,
                         center: locations[0]
                     });
 
-                    for (var i = 0; i < locations.length; i++) {
-                        var marker = new google.maps.Marker({
+                    for (let i = 0; i < locations.length; i++) {
+                        const marker = new google.maps.Marker({
                             position: locations[i],
                             map: map,
                             label: {
