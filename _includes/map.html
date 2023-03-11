@@ -25,15 +25,28 @@
                 function initMap() {
                     const locations = [
                         {lat: 40.748817, lng: -73.985428, title: 'Ekam Ghai'},
-                        {lat: 34.052235, lng: -118.243683, title: 'Los Angeles'},
+                        {lat: 33.748188, lng:  -84.390865, title: 'Isa Lyubimova'},
                         {lat: 41.878113, lng: -87.629799, title: 'Chicago'},
-                        {lat: 29.760427, lng: -95.369804, title: 'Houston'},
-                        {lat: 29.952584, lng: -75.165222, title: 'Philadelphia'}
+                        {lat: 29.760427, lng: -95.369804, title: 'Tapaswini Kodavanti'},
+                        {lat: 30.2642643, lng: -97.7475016, title: 'Zhuoli Xie'},
+                        {lat : -6.8176987, lng: 39.2830288 , title: "Alfeo Raymond"},
+                        {lat : 30.033333, lng: 31.233334 , title: "David Wagih"},
+                        {lat : 38.981059, lng:  -76.936557 , title: "Tharun Kumar Reddy Polu"},
+                        {lat: 47.6037757, lng: -122.3307651, title: 'Ziwei Wang'},
+                        {lat: 51.5033466, lng: 0.079396, title: 'Mostafa Hanafi'},
+                        {lat: 41.878113, lng: -87.629799, title: 'Chicago'},
+                        {lat: 41.878113, lng: -87.629799, title: 'Chicago'},
+                        {lat: 41.878113, lng: -87.629799, title: 'Chicago'},
+                        {lat: 41.878113, lng: -87.629799, title: 'Chicago'},
+                        {lat: 41.878113, lng: -87.629799, title: 'Chicago'},
+
+
                     ];
 
                     const map = new google.maps.Map(document.getElementById('map'), {
-                        zoom: 4,
-                        center: locations[0]
+                        zoom: 2.5,
+                        center: locations[0],
+                        mapTypeId: 'satellite',
                     });
 
                     for (let i = 0; i < locations.length; i++) {
@@ -42,7 +55,7 @@
                             map: map,
                             label: {
                                 text: locations[i].title,
-                                color: 'blue',
+                                color: 'white',
                                 fontWeight: 'bold',
                                 fontSize: '16px',
                                 backgroundColor: 'white',
