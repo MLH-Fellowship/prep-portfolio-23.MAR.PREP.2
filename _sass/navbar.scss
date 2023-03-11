@@ -1,110 +1,190 @@
-.nav-bar {
-  position: fixed;
-  top: -300px;
-  left: 0;
-  width: 100%;
-  background-color: #133667;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  padding: 10px 20px;
-  transition: all 0.3s ease-in-out;
-  z-index: 999;
+body {
+    transition: background-color 1s;
+}
 
-  &.active {
-    top: 0;
-  }
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
 
-  .nav-logo {
-    height: 40px;
-    margin-right: 20px;
-    display: inline-block;
-  }
-
-  .nav-logo img {
-    max-height: 100%;
-    width: auto;
-  }
-
-  .nav-content {
+.label {
+    width: 50px;
+    height: 26px;
+    background-color: #111;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    border-radius: 50px;
     align-items: center;
-    height: 100%;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+    margin: auto 0;
+}
 
-    .nav-links {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-      align-items: center;
-      list-style: none;
-      margin: 0;
-      padding: 0;
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
 
-      li {
-        margin-left: 20px;
 
-        &:first-child {
-          margin-left: 0;
-        }
+.checkbox:checked+.label .ball {
+    transform: translateX(24px);
+}
 
-        a {
-          display: block;
-          padding: 10px;
-          text-decoration: none;
-          color: #fff;
-          font-size: 18px;
-          font-weight: bold;
-          transition: all 0.3s ease-in-out;
-          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow to the items */
 
-          &:hover {
-            color: #ff9502;
-          }
-        }
-      }
+.fa-moon {
+    color: pink;
+}
+
+
+.fa-sun {
+    color: yellow;
+}
+
+
+.card {
+    transition: background-color 1s;
+}
+
+
+.card p {
+    transition: color 1s;
+}
+
+
+.card.night-mode {
+    background-color: grey
+}
+
+
+.card.night-mode p {
+    color: whitesmoke;
+}
+
+
+body.night-mode {
+    background-color: #475569 !important;
+}
+
+
+body.night-mode h2 {
+    color: whitesmoke !important;
+}
+
+.nav-bar {
+    position: fixed;
+    top: -300px;
+    left: 0;
+    width: 100%;
+    background-color: #133667;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+    z-index: 999;
+
+    &.active {
+        top: 0;
     }
-  }
 
-  @media only screen and (max-width: 600px) {
     .nav-logo {
-      height: 30px;
-      margin-right: 0;
+        height: 40px;
+        margin-right: 20px;
+        display: inline-block;
+    }
+
+    .nav-logo img {
+        max-height: 100%;
+        width: auto;
     }
 
     .nav-content {
-      justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
 
-      .nav-links {
-        flex-direction: column;
+        .nav-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
 
-        li {
-          margin: 10px 0;
+            li {
+                margin-left: 20px;
 
-          &:first-child {
-            margin-top: 0;
-          }
+                &:first-child {
+                    margin-left: 0;
+                }
 
-          &:last-child {
-            margin-bottom: 0;
-          }
+                a {
+                    display: block;
+                    padding: 10px;
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: bold;
+                    transition: all 0.3s ease-in-out;
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+                    /* Add shadow to the items */
 
-          a {
-            display: block;
-            padding: 10px;
-            text-decoration: none;
-            color: #fff;
-            font-size: 18px;
-            font-weight: bold;
-            transition: all 0.3s ease-in-out;
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-
-            &:hover {
-              color: #ff9502;
+                    &:hover {
+                        color: #ff9502;
+                    }
+                }
             }
-          }
         }
-      }
     }
-  }
+
+    @media only screen and (max-width: 600px) {
+        .nav-logo {
+            height: 30px;
+            margin-right: 0;
+        }
+
+        .nav-content {
+            justify-content: center;
+
+            .nav-links {
+                flex-direction: column;
+
+                li {
+                    margin: 10px 0;
+
+                    &:first-child {
+                        margin-top: 0;
+                    }
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    a {
+                        display: block;
+                        padding: 10px;
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 18px;
+                        font-weight: bold;
+                        transition: all 0.3s ease-in-out;
+                        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+                        &:hover {
+                            color: #ff9502;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
