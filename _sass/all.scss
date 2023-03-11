@@ -4,7 +4,7 @@
 @import 'profile';
 @import 'page';
 @import 'fellow';
-
+@import 'footer';
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -58,6 +58,11 @@ a {
 }
 
 .info {
+    img {
+      max-width: 400px;
+      border-radius: 10px;
+      padding-bottom: 4px;
+    }
     p {
         margin-top: 5px;
         margin: 0px;
