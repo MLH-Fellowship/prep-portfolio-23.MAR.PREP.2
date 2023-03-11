@@ -1,0 +1,67 @@
+<div style="text-align: center;">
+    <h2>Where Are We Located?</h2>
+    <center>
+        <div class="card" style="height: 450px; width: 70%; ">
+
+            <div id="map" style="height: 400px; width: 100%;"></div>
+            <style>
+                /* Define the animation keyframes */
+                @keyframes flash {
+                    from {
+                        opacity: 1.0;
+                    }
+                    to {
+                        opacity: 0.0;
+                    }
+                }
+
+                /* Apply the animation to the marker icon */
+                .marker-icon {
+                    animation: flash 1s infinite;
+                }
+            </style>
+
+            <script>
+                function initMap() {
+                    const locations = [
+                        {lat: 40.748817, lng: -73.985428, title: 'Ekam Ghai'},
+                        {lat: 34.052235, lng: -118.243683, title: 'Los Angeles'},
+                        {lat: 41.878113, lng: -87.629799, title: 'Chicago'},
+                        {lat: 29.760427, lng: -95.369804, title: 'Houston'},
+                        {lat: 29.952584, lng: -75.165222, title: 'Philadelphia'}
+                    ];
+
+                    const map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 4,
+                        center: locations[0]
+                    });
+
+                    for (let i = 0; i < locations.length; i++) {
+                        const marker = new google.maps.Marker({
+                            position: locations[i],
+                            map: map,
+                            label: {
+                                text: locations[i].title,
+                                color: 'blue',
+                                fontWeight: 'bold',
+                                fontSize: '16px',
+                                backgroundColor: 'white',
+                                textColor: 'white',
+                            },
+                            icon: {
+                                url: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Fpng-user-icon-person-icon-png-people-person-user-icon-2240.png&f=1&nofb=1&ipt=e13724ca0fc01bdf0166fb54c445bdaaa77d761ec7881f3bbacb571d3c23fdc3&ipo=images',
+                                scaledSize: new google.maps.Size(32, 32)
+                            },
+                            animation: google.maps.Animation.DROP
+                        });
+
+                        // Add the marker-icon class to the marker icon
+                        marker.getIcon().className = 'marker-icon';
+                    }
+                }
+            </script>
+
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAw52ZUiWa714wyNWblCENmEYkkcBXdfQ0&callback=initMap"></script>
+        </div>
+    </center>
+</div>

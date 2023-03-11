@@ -11,3 +11,10 @@ sass:
   sass_dir: _sass
 
 icon: /assets/img/icon.jpg
+plugins:
+  - jekyll-maps
+maps:
+  google:
+    marker_cluster:
+      enabled: true
+
