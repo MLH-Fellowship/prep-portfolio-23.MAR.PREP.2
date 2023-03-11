@@ -1,26 +1,32 @@
 .profile {
-    background-color: #133667 !important;
+    //background-color: #133667 !important;
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/27/15/52/jaguar-2894706_960_720.jpg');
     text-align: center;
-    height: 320px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     h1 {
         font-size: 50px;
         font-weight: 700;
         color: white;
     }
-    
+
     img {
         border-radius: 50%;
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 50%;
+        max-height: 50%;
         margin-left: auto;
         margin-right: auto;
-        display: inline;        
+        display: inline-block;
+        width: 150px;
+        object-fit: cover;
         padding: 20px;
     }
-    
+
     .profile-picture {
         margin-bottom: 30px;
-        height: 200px;
     }
 }

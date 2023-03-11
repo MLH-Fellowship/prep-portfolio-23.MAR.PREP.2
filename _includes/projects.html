@@ -6,14 +6,15 @@
     {% else %}
     <a>
     {% endif %}
-      <div class="card">
-        <div class="info">
-          <p class="title">{{ item.title }}</p>
-          <p class="location">{{ item.event }}</p>
-          <p class="dates">{{ item.date }}</p>
+        <div class="card">
+            <div class="info">
+                <img class="image" src="./assets/img/{{ item.img }}">
+                <p class="title">{{ item.title }}</p>
+                <p class="location">{{ item.event }}</p>
+                <p class="dates">{{ item.date }}</p>
+            </div>
         </div>
-      </div>
     </a>
     {% endfor %}
-  </div>
+</div>
   
