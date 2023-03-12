@@ -1,0 +1,78 @@
+<div style="text-align: center;">
+    <h2>Where Are We Located?</h2>
+    <center>
+        <div class="card" style="height: 500px; width: 84%; ">
+
+            <div id="map" style="height: 450px; width: 100%;"></div>
+            <style>
+                /* Define the animation keyframes */
+                @keyframes flash {
+                    from {
+                        opacity: 1.0;
+                    }
+                    to {
+                        opacity: 0.0;
+                    }
+                }
+
+                /* Apply the animation to the marker icon */
+                .marker-icon {
+                    animation: flash 1s infinite;
+                }
+            </style>
+
+            <script>
+                function initMap() {
+                    const locations = [
+                        {lat: 40.748817, lng: -73.985428, title: 'Ekam Ghai'},
+                        {lat: 33.748188, lng: -84.390865, title: 'Isa Lyubimova'},
+                        {lat: 29.760427, lng: -95.369804, title: 'Tapaswini Kodavanti'},
+                        {lat: 30.2642643, lng: -97.7475016, title: 'Zhuoli Xie'},
+                        {lat: -6.8176987, lng: 39.2830288, title: "Alfeo Raymond"},
+                        {lat: 30.033333, lng: 31.233334, title: "David Wagih"},
+                        {lat: 38.981059, lng: -76.936557, title: "Tharun Kumar Reddy Polu"},
+                        {lat: 47.6037757, lng: -122.3307651, title: 'Ziwei Wang'},
+                        {lat: 51.5033466, lng: 0.079396, title: 'Mostafa Hanafi'},
+                        {lat: 39.748817, lng: -74.985428, title: 'Reginald Amedee'},
+                        {lat: 49.2604134, lng: -123.1139456, title: 'Beatrix Cendana'},
+                        {lat: 41.878113, lng: -87.629799, title: 'Isa Lyubimova'},
+                        {lat: 32.080909, lng: -81.091201, title: 'Victoria Johnson'},
+                        {lat: 9.011506, lng: 38.7594159, title: 'Barok Getachew'},
+                        {lat: 40.4378596, lng: -79.996257, title: 'Krit Ravichander '},
+                    ];
+
+                    const map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 2.5,
+                        center: locations[0],
+                        mapTypeId: 'satellite',
+                    });
+
+                    for (let i = 0; i < locations.length; i++) {
+                        const marker = new google.maps.Marker({
+                            position: locations[i],
+                            map: map,
+                            label: {
+                                text: locations[i].title,
+                                color: 'white',
+                                fontWeight: 'bold',
+                                fontSize: '14px',
+                                backgroundColor: 'white',
+                                textColor: 'white',
+                            },
+                            icon: {
+                                url: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Fpng-user-icon-person-icon-png-people-person-user-icon-2240.png&f=1&nofb=1&ipt=e13724ca0fc01bdf0166fb54c445bdaaa77d761ec7881f3bbacb571d3c23fdc3&ipo=images',
+                                scaledSize: new google.maps.Size(32, 32)
+                            },
+                            animation: google.maps.Animation.DROP
+                        });
+
+                        // Add the marker-icon class to the marker icon
+                        marker.getIcon().className = 'marker-icon';
+                    }
+                }
+            </script>
+
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAw52ZUiWa714wyNWblCENmEYkkcBXdfQ0&callback=initMap"></script>
+        </div>
+    </center>
+</div>
