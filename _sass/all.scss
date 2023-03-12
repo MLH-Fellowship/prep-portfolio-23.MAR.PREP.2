@@ -3,7 +3,8 @@
 @import 'navbar';
 @import 'profile';
 @import 'page';
-
+@import 'fellow';
+@import 'footer';
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -56,6 +57,11 @@ a {
 }
 
 .info {
+    img {
+      max-width: 400px;
+      border-radius: 10px;
+      padding-bottom: 4px;
+    }
     p {
         margin-top: 5px;
         margin: 0px;
@@ -76,6 +82,51 @@ a {
         font-size: small;
         color: #404040;
     }
+}
+
+.preview-title {
+  font-size: 500;
+  font-weight: bold;
+}
+
+.preview-author {
+  font-size: medium;
+  font-weight: 400;
+}
+
+.preview-date {
+  font-size: small;
+  color: #404040;
+}
+
+.blog-subheading {
+  margin-bottom: 50px;
+
+  .blog-date {
+    font-size: small;
+    color: #404040;
+    font-style: italic;
+  }
+
+  .blog-author {
+    font-size: large;
+  }
+}
+
+.blog-icon {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  float: left;
+}
+
+.preview-text {
+  overflow: hidden;
+}
+
+.blog-header {
+  margin-top: 20px;
 }
 
 .icon {

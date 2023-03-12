@@ -1,10 +1,16 @@
 <h2>Meet the Pod</h2>
 <div class="card-container">
-    {% for item in site.data.fellows %}
-    <div class="card">
-        <div class="info">
-            <p class="title"> {{ item.name }}</p>
-            <p class="location"> {{ item.location }}</p>
+    {% for fellow in site.data.fellows %}
+    {% if fellow.name %}
+    <a href="/fellows/{{ fellow.page }}">
+    {% else %}
+    <a>
+    {% endif %}
+        <div class="card">
+            <div class="info">
+                <p class="title"> {{ fellow.name }}</p>
+                <p class="location"> {{ fellow.location }}</p>
+            </div>
         </div>
         <div class="icon">
             <img src="/assets/img/linkedin.png">
@@ -18,6 +24,18 @@
         <div class="icon">
             <img src="/assets/img/github.png">
         </div>
-    </div>
+        <div class="icon">
+            <img src="/assets/img/linkedin.png">
+        </div>
+        <div class="icon">
+            <img src="/assets/img/twitter.png">
+        </div>
+        <div class="icon">
+            <img src="/assets/img/resume.png">
+        </div>
+        <div class="icon">
+            <img src="/assets/img/github.png">
+        </div>
+    </a>
     {% endfor %}
 </div>
