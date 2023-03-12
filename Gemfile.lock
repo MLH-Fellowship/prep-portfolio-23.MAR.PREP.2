@@ -11,7 +11,6 @@ GEM
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     ffi (1.15.5)
-    ffi (1.15.5-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.12.0)
@@ -40,7 +39,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.4)
-    listen (3.8.0)
+    listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
@@ -70,6 +69,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw-ucrt
   x64-mingw32
 
 DEPENDENCIES
