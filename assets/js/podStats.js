@@ -23,42 +23,53 @@ Promise.all([
     let contributorsList = [];
     const removeList = new Set(['akshitadixit', 'marcnjaramillo']);
     const contributorsMap = new Map();
-        for (const ele of resp1) {
-            if(removeList.has(ele.login)===false){
-                contributorsMap.set(ele.login, ele.contributions);
-            }
+    console.log(resp1);
+    console.log(resp2);
+    for (const ele of resp1) {
+        if(removeList.has(ele.login)===false){
+            contributorsMap.set(ele.login, ele.contributions);
+            const temp = {
+                username: ele.login,
+                avatarUrl: ele.avatar_url,
+                statsProfileUrl: ele.html_url,
+                contributions: ele.contributions
+            };
+            contributorsList.push(temp);
         }
-        for (const ele of resp2) {
-                if(removeList.has(ele.login)===false){
-                    const currContributions = contributorsMap.get(ele.login);
-                    const temp = {
-                        username: ele.login,
-                        avatarUrl: ele.avatar_url,
-                        statsProfileUrl: ele.html_url,
-                        contributions: currContributions + ele.contributions
-                    };
-                    contributorsList.push(temp);
+    }
+    console.log(contributorsList);
+    for (const ele of resp2) {
+        if(removeList.has(ele.login)===false){
+            if(contributorsMap.has(ele.login)){
+                contributorsMap.set(ele.login, contributorsMap.get(ele.login)+ele.contributions);
+                for (const ele2 of contributorsList) {
+                    if(ele2.username === ele.login){
+                        ele2.contributions += ele.contributions;
+                    }
                 }
             }
-            
-        contributorsList.sort((a, b)=>{
-            return b.contributions - a.contributions;
-        });
-        // adding 15 statsCards
-        let statsCards = document.getElementsByClassName("statsCards")[0];
-        for (let i = 0; i < contributorsList.length; i++) {
-            statsCards.innerHTML += `
-            <div class="statsCard">
-            <a class="plate" href=${contributorsList[i].statsProfileUrl}>
-                    <div class="statsProfile"><div class="pic" id="pic"></div></div>
-                    <div class="username" id="username">username</div>
-            </a>
-            <div class="text">
-                <div class="left">Contributions:</div>
-                <div class="right" id="right">07</div>
-            </div>
-            </div>`;
         }
-        displayFetch(contributorsList);
-    })
-    .catch((error) => console.log(error));
+    }   
+    
+    contributorsList.sort((a, b)=>{
+        return b.contributions - a.contributions;
+    });
+    
+    // adding 15 statsCards
+    let statsCards = document.getElementsByClassName("statsCards")[0];
+    for (let i = 0; i < contributorsList.length; i++) {
+        statsCards.innerHTML += `
+        <div class="statsCard">
+        <a class="plate" href=${contributorsList[i].statsProfileUrl}>
+                <div class="statsProfile"><div class="pic" id="pic"></div></div>
+                <div class="username" id="username">username</div>
+        </a>
+        <div class="text">
+            <div class="left">Contributions:</div>
+            <div class="right" id="right">07</div>
+        </div>
+        </div>`;
+    }
+    displayFetch(contributorsList);
+})
+.catch((error) => console.log(error));
