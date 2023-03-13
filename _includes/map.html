@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div style="text-align: center;" id="contacts">
     <h2>Where Are We Located?</h2>
     <center>
         <div class="card" style="height: 500px; width: 84%; ">
@@ -24,21 +24,21 @@
             <script>
                 function initMap() {
                     const locations = [
-                        {lat: 40.748817, lng: -73.985428, title: 'Ekam Ghai'},
-                        {lat: 33.748188, lng: -84.390865, title: 'Isa Lyubimova'},
-                        {lat: 29.760427, lng: -95.369804, title: 'Tapaswini Kodavanti'},
-                        {lat: 30.2642643, lng: -97.7475016, title: 'Zhuoli Xie'},
-                        {lat: -6.8176987, lng: 39.2830288, title: "Alfeo Raymond"},
-                        {lat: 30.033333, lng: 31.233334, title: "David Wagih"},
-                        {lat: 38.981059, lng: -76.936557, title: "Tharun Kumar Reddy Polu"},
-                        {lat: 47.6037757, lng: -122.3307651, title: 'Ziwei Wang'},
-                        {lat: 51.5033466, lng: 0.079396, title: 'Mostafa Hanafi'},
-                        {lat: 39.748817, lng: -74.985428, title: 'Reginald Amedee'},
-                        {lat: 49.2604134, lng: -123.1139456, title: 'Beatrix Cendana'},
-                        {lat: 41.878113, lng: -87.629799, title: 'Isa Lyubimova'},
-                        {lat: 32.080909, lng: -81.091201, title: 'Victoria Johnson'},
-                        {lat: 9.011506, lng: 38.7594159, title: 'Barok Getachew'},
-                        {lat: 40.4378596, lng: -79.996257, title: 'Krit Ravichander '},
+                        {lat: 40.748817, lng: -73.985428, title: 'Ekam Ghai', img: ' https://avatars.githubusercontent.com/u/94583299?v=4'},
+                        {lat: 33.748188, lng: -84.390865, title: 'Qiwen Li', img: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Fpng-user-icon-person-icon-png-people-person-user-icon-2240.png&f=1&nofb=1&ipt=e13724ca0fc01bdf0166fb54c445bdaaa77d761ec7881f3bbacb571d3c23fdc3&ipo=images'},
+                        {lat: 29.760427, lng: -95.369804, title: 'Tapaswini Kodavanti', img: 'https://media.licdn.com/dms/image/C5603AQEqPqcyzvPYvQ/profile-displayphoto-shrink_400_400/0/1630077490985?e=1683763200&v=beta&t=rdu6u9JJ1tdZ2zVxisR3qc1lpmnpYzfWRisD8hw2Rf4'},
+                        {lat: 30.2642643, lng: -97.7475016, title: 'Zhuoli Xie', img: 'https://avatars.githubusercontent.com/u/65101998?v=4'},
+                        {lat: -6.8176987, lng: 39.2830288, title: "Alfeo Raymond", img: 'https://media.licdn.com/dms/image/C4E03AQGhpFb-rYyWBQ/profile-displayphoto-shrink_400_400/0/1647328748084?e=1683763200&v=beta&t=YZ15pT44Z3RNw3gVwas8NnyvstXYND5WFn5JIXnbWkI'},
+                        {lat: 30.033333, lng: 31.233334, title: "David Wagih", img: 'https://media.licdn.com/dms/image/D4D03AQGNQhHQWx6TqA/profile-displayphoto-shrink_400_400/0/1677011272447?e=1683763200&v=beta&t=MSaGW6KplH-O5VbLqFAX0YyZtyYQnoTDX3HJg4ip10U'},
+                        {lat: 38.981059, lng: -76.936557, title: "Tharun Kumar Reddy Polu", img: 'https://media.licdn.com/dms/image/D5603AQE2iwHOoLlMdQ/profile-displayphoto-shrink_400_400/0/1669496356264?e=1683763200&v=beta&t=_kqxpXh8n1K9Tw-qJE2Tv-hHVck5z29j0a3oYL9PbNA'},
+                        {lat: 47.6037757, lng: -122.3307651, title: 'Ziwei Wang', img: ' https://avatars.githubusercontent.com/u/29494959?v=4'},
+                        {lat: 51.5033466, lng: 0.079396, title: 'Mostafa Hanafi', img: 'https://media.licdn.com/dms/image/C4E03AQGUHPMYlyMDuQ/profile-displayphoto-shrink_400_400/0/1656348512736?e=1683763200&v=beta&t=Rw2gvAM5dIH5MrSwPMq_T7JX4O1zq225uWHjIsS5ZqI'},
+                        {lat: 39.748817, lng: -74.985428, title: 'Reginald Amedee', img: ' https://avatars.githubusercontent.com/u/78266709?v=4'},
+                        {lat: 49.2604134, lng: -123.1139456, title: 'Beatrix Cendana', img: 'https://drive.google.com/uc?export=view?&id=1L_ggw2BKI5kG0poXNUvTSZtBlaQo58-Z'},
+                        {lat: 41.878113, lng: -87.629799, title: 'Isa Lyubimova', img: 'https://media.licdn.com/dms/image/C4E03AQEkoLhOVZ0pbQ/profile-displayphoto-shrink_400_400/0/1635728207057?e=1683763200&v=beta&t=2icUoixfT60NvVKwWYe7cThqZFpR5lnKmpuYe6CCNG4'},
+                        {lat: 32.080909, lng: -81.091201, title: 'Victoria Johnson', img: 'https://media.licdn.com/dms/image/C4D03AQETYyqIIvNOIw/profile-displayphoto-shrink_400_400/0/1554393966031?e=1683763200&v=beta&t=ZuYWFUdauFDZcCuFYh6PP9IYoc1zeTRm2N6JfgRUJxM'},
+                        {lat: 9.011506, lng: 38.7594159, title: 'Barok Getachew', img: 'https://media.licdn.com/dms/image/D4E03AQFIp5mYdnIbDA/profile-displayphoto-shrink_400_400/0/1672646022075?e=1683763200&v=beta&t=90TpSHx2iq3iCExdSE0386WYrOpro2o8glwxblkkTCs'},
+                        {lat: 40.4378596, lng: -79.996257, title: 'Krit Ravichander ', img: 'https://media.licdn.com/dms/image/D5603AQG317-l3iKc5A/profile-displayphoto-shrink_400_400/0/1665965601441?e=1683763200&v=beta&t=gJyHPtVuzWRqNAFS9JbveOVHwmRrco0d0XzwYnITy0c'},
                     ];
 
                     const map = new google.maps.Map(document.getElementById('map'), {
@@ -60,7 +60,9 @@
                                 textColor: 'white',
                             },
                             icon: {
-                                url: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Fpng-user-icon-person-icon-png-people-person-user-icon-2240.png&f=1&nofb=1&ipt=e13724ca0fc01bdf0166fb54c445bdaaa77d761ec7881f3bbacb571d3c23fdc3&ipo=images',
+                                url: locations[i].img,
+                                // url: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Fpng-user-icon-person-icon-png-people-person-user-icon-2240.png&f=1&nofb=1&ipt=e13724ca0fc01bdf0166fb54c445bdaaa77d761ec7881f3bbacb571d3c23fdc3&ipo=images',
+
                                 scaledSize: new google.maps.Size(32, 32)
                             },
                             animation: google.maps.Animation.DROP

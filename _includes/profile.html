@@ -1,8 +1,10 @@
-<div class="profile">
+<div class="profile" id="home">
+    <div class="layer-transparency">
     <div class="profile-picture">
         {% for item in site.data.fellows %}
-            <img src="{{ item.img }}">
+            <img src="{{ item.img }}" title="{{ item.name }}">
         {% endfor %}
     </div>
     <h1>{{ site.title }}</h1>
+    </div>
 </div>

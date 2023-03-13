@@ -79,7 +79,7 @@ body.night-mode h2 {
 
 .nav-bar {
     position: fixed;
-    top: -300px;
+    
     left: 0;
     width: 100%;
     background-color: #133667;
@@ -88,7 +88,9 @@ body.night-mode h2 {
     padding: 10px 20px;
     transition: all 0.3s ease-in-out;
     z-index: 999;
-
+    display: flex;
+    justify-content: space-between;
+border-bottom: #ff9502 solid 2px;
     &.active {
         top: 0;
     }
