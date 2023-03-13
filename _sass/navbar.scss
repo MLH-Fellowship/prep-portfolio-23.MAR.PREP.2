@@ -90,7 +90,7 @@ body.night-mode h2 {
     z-index: 999;
     display: flex;
     justify-content: space-between;
-
+border-bottom: #ff9502 solid 2px;
     &.active {
         top: 0;
     }
