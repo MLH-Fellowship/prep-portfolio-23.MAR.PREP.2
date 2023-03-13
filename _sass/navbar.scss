@@ -88,6 +88,8 @@ body.night-mode h2 {
     padding: 10px 20px;
     transition: all 0.3s ease-in-out;
     z-index: 999;
+    display: flex;
+    justify-content: space-between;
 
     &.active {
         top: 0;
