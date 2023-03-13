@@ -5,6 +5,8 @@
 @import 'page';
 @import 'fellow';
 @import 'footer';
+@import 'podStats';
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -28,6 +30,7 @@
     grid-template-columns: 1fr;
   }
 }
+
 
 
 body {
