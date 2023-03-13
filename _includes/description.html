@@ -2,16 +2,55 @@
 <div class="card-container">
     {% for fellow in site.data.fellows %}
     {% if fellow.name %}
-    <a href="/fellows/{{ fellow.page }}">
-    {% else %}
-    <a>
-    {% endif %}
-        <div class="card">
+    <div class="card">
+        <a href="/fellows/{{ fellow.page }}">
             <div class="info">
                 <p class="title"> {{ fellow.name }}</p>
                 <p class="location"> {{ fellow.location }}</p>
             </div>
-        </div>
-    </a>
+            
+    {% else %}
+            <a>
+    {% endif %}
+            <div class="info-container">
+                <div class="icon">
+                    {% if fellow.linkedin %}
+                    <a href="{{ fellow.linkedin }}" target="_blank">
+                    {% else %}
+                    <a>
+                    {% endif %}
+                        <img src="/assets/img/linkedin.png">
+                    </a>
+                </div>
+                <div class="icon">
+                    {% if fellow.twitter %}
+                    <a href="{{ fellow.twitter }}" target="_blank">
+                    {% else %}
+                    <a>
+                    {% endif %}
+                        <img src="/assets/img/twitter.png">
+                    </a>
+                </div>
+                <div class="icon">
+                    {% if fellow.resume %}
+                    <a href="{{ fellow.resume }}" target="_blank">
+                    {% else %}
+                    <a>
+                    {% endif %}
+                        <img src="/assets/img/resume.png">
+                    </a>
+                </div>
+                <div class="icon">
+                    {% if fellow.github %}
+                    <a href="{{ fellow.github }}" target="_blank">
+                    {% else %}
+                    <a>
+                    {% endif %}
+                        <img src="/assets/img/github.png">
+                    </a>
+                </div>
+            </div>
+        </a>
+    </div>
     {% endfor %}
 </div>

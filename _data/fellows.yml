@@ -2,71 +2,113 @@
   img: https://media.licdn.com/dms/image/C4E03AQGhpFb-rYyWBQ/profile-displayphoto-shrink_400_400/0/1647328748084?e=1683763200&v=beta&t=YZ15pT44Z3RNw3gVwas8NnyvstXYND5WFn5JIXnbWkI
   location: Dar es Salaam, Tanzania
   page: alfeo
+  linkedin: https://www.linkedin.com/in/pheogrammer
+  twitter: https://twitter.com/pheogrammer
+  github: https://github.com/Pheogrammer
 
 - name: David Wagih
   img: https://media.licdn.com/dms/image/D4D03AQGNQhHQWx6TqA/profile-displayphoto-shrink_400_400/0/1677011272447?e=1683763200&v=beta&t=MSaGW6KplH-O5VbLqFAX0YyZtyYQnoTDX3HJg4ip10U
   location: Cairo, Egypt
   page: david
+  linkedin: https://www.linkedin.com/in/david-wagih/
+  twitter: https://twitter.com/David18536684
+  github: https://github.com/david-wagih
 
 - name: Tharun Kumar Reddy Polu
   img: https://avatars.githubusercontent.com/u/62342666?v=4
   location: Maryland, USA
   page: tharun
+  linkedin: https://www.linkedin.com/in/polu-tharun-kumar-reddy/
+  twitter: https://twitter.com/tharunreddypolu
+  github: https://github.com/TharunKumarReddyPolu
 
 - name: Zhuoli Xie
   img: https://avatars.githubusercontent.com/u/65101998?v=4
   location: Austin, TX, USA
   page: zhuoli
+  linkedin: https://www.linkedin.com/in/zhuolixie/
+  twitter: 
+  github: https://www.github.com/SandyCreek
 
 - name: Ziwei Wang
   img: https://avatars.githubusercontent.com/u/29494959?v=4
   location: Seattle, WA, USA
   page: ziwei
+  linkedin: https://www.linkedin.com/in/zwwang/
+  twitter: 
+  github: https://github.com/zwwang98
 
 - name: Mostafa Hanafi
   img: https://media.licdn.com/dms/image/C4E03AQGUHPMYlyMDuQ/profile-displayphoto-shrink_400_400/0/1656348512736?e=1683763200&v=beta&t=Rw2gvAM5dIH5MrSwPMq_T7JX4O1zq225uWHjIsS5ZqI
   location: London, UK
   page: mostafa
+  linkedin: https://www.linkedin.com/in/hanafi-m/
+  twitter:
+  github: https://github.com/mostafahanafi
 
 - name: Reginald Amedee
   img: https://avatars.githubusercontent.com/u/78266709?v=4
   location: New York, USA
   page: reginald
+  linkedin: https://www.linkedin.com/in/reginaldamedee/
+  twitter: 
+  github: https://github.com/Reggie-Amedee-Tech
 
 - name: Ekam Ghai
   img: https://avatars.githubusercontent.com/u/94583299?v=4
   location: New Jersey, USA
   page: ekam
+  linkedin: https://www.linkedin.com/in/ekam-ghai-58454b235/
+  twitter: 
+  github: https://github.com/carghai
 
 - name: Beatrix Cendana
   img: https://avatars.githubusercontent.com/u/68295481?v=4
   location: Vancouver, BC, Canada
   page: beatrix
+  linkedin: https://www.linkedin.com/in/beatrixcendana/
+  twitter: https://twitter.com/Beatrixcdn
+  github: https://github.com/beatrixcendana
 
 - name: Isa Lyubimova
   img: https://media.licdn.com/dms/image/C4E03AQEkoLhOVZ0pbQ/profile-displayphoto-shrink_400_400/0/1635728207057?e=1683763200&v=beta&t=2icUoixfT60NvVKwWYe7cThqZFpR5lnKmpuYe6CCNG4
   location: Atlanta, GA, USA
   page: isa
+  linkedin: https://www.linkedin.com/in/isalyubimova
+  twitter:
+  github: https://github.com/isalyu
 
 - name: Victoria Johnson
   img: https://media.licdn.com/dms/image/C4D03AQETYyqIIvNOIw/profile-displayphoto-shrink_400_400/0/1554393966031?e=1683763200&v=beta&t=ZuYWFUdauFDZcCuFYh6PP9IYoc1zeTRm2N6JfgRUJxM
   location: Savannah, GA, USA
   page: victoria
+  linkedin: https://www.linkedin.com/in/vee-johnson
+  twitter: https://twitter.com/vikkstr
+  github: https://github.com/doej0
 
 - name: Tapaswini Kodavanti
   img: https://media.licdn.com/dms/image/C5603AQEqPqcyzvPYvQ/profile-displayphoto-shrink_400_400/0/1630077490985?e=1683763200&v=beta&t=rdu6u9JJ1tdZ2zVxisR3qc1lpmnpYzfWRisD8hw2Rf4
   location: Austin, TX, USA
   page: tapaswini
+  linkedin: https://www.linkedin.com/in/tapaswini-k/
+  twitter: 
+  github: https://github.com/tapaswini-kodavanti
 
 - name: Barok Getachew
   img: https://media.licdn.com/dms/image/D4E03AQFIp5mYdnIbDA/profile-displayphoto-shrink_400_400/0/1672646022075?e=1683763200&v=beta&t=90TpSHx2iq3iCExdSE0386WYrOpro2o8glwxblkkTCs
   location: Addis Ababa, Ethiopia
   page: barok
+  linkedin: https://www.linkedin.com/in/barokdg
+  twitter: https://www.twitter.com/bar_okk
+  github: https://www.github.com/barokdg
 
 - name: Krit Ravichander
   img: https://media.licdn.com/dms/image/D5603AQG317-l3iKc5A/profile-displayphoto-shrink_400_400/0/1665965601441?e=1683763200&v=beta&t=gJyHPtVuzWRqNAFS9JbveOVHwmRrco0d0XzwYnITy0c
   location: Pittsburgh, PA, USA
   page: krit
+  linkedin: https://www.linkedin.com/in/kritrr/
+  twitter:
+  github: https://github.com/krit-rr
 
 - name: Qiwen Li
   img: 
