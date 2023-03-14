@@ -1,15 +1,15 @@
 ---
-title: 
-full_name: 
+title: Isa's Profile
+full_name: Isa Lyubimova
 layout: fellow
 img: 
-location: 
-email: 
-linkedin: 
+location: Atlanta, GA
+email: vasilisa.constance@gmail.com
+linkedin: https://www.linkedin.com/in/isalyubimova/
 twitter: 
-github: 
-description: 
-university: 
-interests: 
-favorite_programming_language: 
+github: https://github.com/isalyu
+description: MLH March '23 Prep Fellow || Mathematics and Computer Science Student || Always Learning
+university: Georgia Institute of Technology 
+interests: Learning new technologies, Reading (both non-fiction & fiction), Hiking, Puzzles
+favorite_programming_language: Python 
 ---
