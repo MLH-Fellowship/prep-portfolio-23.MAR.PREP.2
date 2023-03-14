@@ -21,7 +21,7 @@ Promise.all([
     const resp1 = data[0];
     const resp2 = data[1];
     let contributorsList = [];
-    const removeList = new Set(['akshitadixit', 'marcnjaramillo']);
+    const removeList = new Set(['akshitadixit', 'marcnjaramillo', 'utk09']);
     const contributorsMap = new Map();
     console.log(resp1);
     console.log(resp2);
